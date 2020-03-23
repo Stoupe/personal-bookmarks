@@ -6,26 +6,20 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Bookmark from "../components/bookmark"
 
+import "../components/style.css"
+
 const IndexPage = () => (
   <Layout>
-    {/* <SEO title="Home" />
-    <h1>Hello!</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> */}
 
     <SEO title="Home" />
 
-    <h1>ENGR 301</h1>
-
-    <Bookmark title="Google" link="https://www.google.com"/>
-    <Bookmark title="Google" link="https://www.google.com"/>
-    <Bookmark title="Google" link="https://www.google.com"/>
-    <Bookmark title="Google" link="https://www.google.com"/>
-
+    <div class={`container`}>
+      <Bookmark title="CALENDAR" link="https://calendar.google.com/calendar/r"/>
+      <Bookmark title="ENGR 301" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/"/>
+      <Bookmark title="SWEN 301" link="https://ecs.wgtn.ac.nz/Courses/SWEN301_2020T1/"/>
+      <Bookmark title="SWEN 304" link="https://ecs.wgtn.ac.nz/Courses/SWEN304_2020T1/"/>
+      <Bookmark title="COMP 307" link="https://ecs.wgtn.ac.nz/Courses/COMP307_2020T1/"/>
+    </div>
 
     <Link to="/page-2">PAGE 2</Link>
 

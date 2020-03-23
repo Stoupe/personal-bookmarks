@@ -1,0 +1,30 @@
+body {
+    background: #333;
+}
+
+.container {
+    // background: green;
+}
+
+.bookmark {
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+    &:hover {
+        background: #212121;
+    }
+
+    a {
+        width: 100%;
+        color: #fff;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

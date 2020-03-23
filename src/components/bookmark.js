@@ -3,18 +3,8 @@ import React from "react"
 
 const Bookmark = ({ title, link }) => (
 
-    <div
-      style={{
-          flex: `row wrap`,
-        // margin: `10px auto`,
-        maxWidth: 200,
-        padding: `1rem 1rem`,
-        background: `#eee`,
-        borderRadius: `20px`,
-      }}
-    >
+    <div class={`bookmark`}>
         <a href={link}>{title}</a>
-
     </div>
 )
 
