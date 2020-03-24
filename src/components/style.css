@@ -1,13 +1,41 @@
+header {
+  background: #222222;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 8px solid rgba(255, 255, 255, 0.5);
+}
+
+header h1 {
+  margin: auto 0;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 body {
-  background: #333;
+  background: #000;
+  color: #fff;
 }
 
 h3 {
-  color: #fff;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .container {
+  background: #030303;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,25 +43,42 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.bookmark {
-  background: #402074;
+.container section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container section .bookmark {
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
-  margin: 0 10px 10px 0;
-  border-radius: 15px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  margin: 0 5px 5px 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
   border: 4px solid #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.bookmark:hover {
+.container section .bookmark:hover {
   background: #4b2c7c;
+  -webkit-transform: translate(0, -3px);
+          transform: translate(0, -3px);
 }
 
-.bookmark a {
+.container section .bookmark a {
   display: inline-block;
   width: 100%;
   height: 100%;
