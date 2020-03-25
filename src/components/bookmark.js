@@ -14,9 +14,6 @@ const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)
 
 const Bookmark = ({ title, link, image }) => (
 
-  
-
-
   <div class={`bookmark`}>
     
     <img src={images[image]} alt={""}></img>
@@ -32,7 +29,7 @@ Bookmark.propTypes = {
 Bookmark.defaultProps = {
   title: `No Title`,
   link: `/`,
-  image: `vic_logo.png`
+  image: `github.png`
 }
 
 export default Bookmark
