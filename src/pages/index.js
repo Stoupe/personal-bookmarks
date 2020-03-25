@@ -24,7 +24,7 @@ const IndexPage = () => (
         <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/Assignments"/>
         <Bookmark title="Forum" link="https://ecs.wgtn.ac.nz/cgi-bin/yabb/YaBB.pl?board=ENGR301_2020T1"/>
         <Bookmark title="Submission" link="https://apps.ecs.vuw.ac.nz/submit/ENGR301"/>
-        <Bookmark title="GitLab" link="https://gitlab.ecs.vuw.ac.nz/course-work/engr300/2020/group4/group-4"/>
+        <Bookmark title="GitLab" image="gitlab.png" link="https://gitlab.ecs.vuw.ac.nz/course-work/engr300/2020/group4/group-4"/>
       </section>
 
       <h3>SWEN 301</h3>
