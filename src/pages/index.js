@@ -14,7 +14,11 @@ const IndexPage = () => (
     <div class={`container`}>
       <section>
       <Bookmark title="Calendar" image="google_calendar.png" link="https://calendar.google.com/calendar/r"/>
+      <Bookmark title="Gmail" image="gmail.png" link="https://mail.google.com/mail/u/0/#inbox"/>
+      <Bookmark title="MyTools" link="https://www.wgtn.ac.nz/students/tools"/>
+      <Bookmark title="Work Experience" link="https://ecs.wgtn.ac.nz/Main/WorkExperience/WebHome"/>
       <Bookmark title="GitHub" image="github.png" link="https://github.com/Stoupe?tab=repositories"/>
+      <Bookmark title="GitLab" image="gitlab.png" link="https://gitlab.ecs.vuw.ac.nz/"/>
       </section>
 
       <h3>ENGR 301</h3>
@@ -24,7 +28,7 @@ const IndexPage = () => (
         <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/Assignments"/>
         <Bookmark title="Forum" link="https://ecs.wgtn.ac.nz/cgi-bin/yabb/YaBB.pl?board=ENGR301_2020T1"/>
         <Bookmark title="Submission" link="https://apps.ecs.vuw.ac.nz/submit/ENGR301"/>
-        <Bookmark title="GitLab" image="gitlab.png" link="https://gitlab.ecs.vuw.ac.nz/course-work/engr300/2020/group4/group-4"/>
+        <Bookmark title="GitLab Repo" image="gitlab.png" link="https://gitlab.ecs.vuw.ac.nz/course-work/engr300/2020/group4/group-4"/>
       </section>
 
       <h3>SWEN 301</h3>
