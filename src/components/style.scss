@@ -1,5 +1,7 @@
+$green: #5ECC74;
+
 header {
-    background: #222222;
+    background: $green;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -25,7 +27,7 @@ main {
 }
 
 body {
-    background: #000;
+    background: #212121;
     color: #fff;
 }
 
@@ -34,7 +36,7 @@ h3 {
 }
 
 .container {
-    background: #030303;
+    background: #343434;
     display: flex;
     flex-flow: column wrap;
 
@@ -47,29 +49,48 @@ h3 {
         justify-content: center;
 
         .bookmark {
-            background: rgba(255, 255, 255, 0.1);
+            // background: rgba(255, 255, 255, 0.1);
             color: #fff;
         
-            margin: 0 5px 5px 0;
+            // margin: 0 5px 5px 0;
             // border-radius: 15px;
             transition: all 0.2s ease;
-            border: 4px solid #fff;
+            // border: 4px solid #fff;
             box-sizing: border-box;
+            border-radius: 25px;
+            padding: 6px;
+
+            display: flex;
+            flex-direction: column;
         
             &:hover {
-                background: rgb(75, 44, 124);
-                transform: translate(0, -3px);
+                background: rgba(255,255,255,0.1);
+                transform: translate(0, -2px);
+            }
+
+            img {
+                width: 80px;
+                height: 80px;
+                // margin: 0 auto;
+                border: 4px #333;
+                background: #ffffff;
+                border-radius: 25px;
+                margin: 6px;
+                padding: 6px;
             }
         
             a {
+                font-size: 0.8rem;
+                font-weight: bold;
                 display: inline-block;
-                width: 100%;
-                height: 100%;
+                // width: 100%;
+                // height: 100%;
                 text-align: center;
-                padding: 10px 15px;
+                // padding: 10px 15px;
                 color: #fff;
                 text-decoration: none;
                 font-family: 'Roobert TRIAL', Arial, Helvetica, sans-serif;
+                max-width: 90px;
             }
         } 
 

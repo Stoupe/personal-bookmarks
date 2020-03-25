@@ -1,11 +1,14 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-const Bookmark = ({ title, link }) => (
+const Bookmark = ({ title, link, image }) => (
 
-    <div class={`bookmark`}>
-        <a href={link}>{title}</a>
-    </div>
+
+  <div class={`bookmark`}>
+    <img src={image}></img>
+    <a href={link}>{title}</a>
+  </div>
+
 )
 
 Bookmark.propTypes = {
@@ -14,7 +17,8 @@ Bookmark.propTypes = {
 
 Bookmark.defaultProps = {
   title: `No Title`,
-  link: `No Link`
+  link: `/`,
+  image: `https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png`
 }
 
 export default Bookmark
