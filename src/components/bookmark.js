@@ -13,9 +13,8 @@ const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)
 const Bookmark = ({ title, link, image }) => (
 
   <div class={`bookmark`}>
-    
-    <img src={images[image]} alt={""}></img>
     <a href={link}>{title}</a>
+    <img src={images[image]} alt={""}></img>
   </div>
 
 )
