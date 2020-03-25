@@ -6,13 +6,11 @@ import React from "react"
 
 function importAll(r) {
   let images = {};
-  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  r.keys().map((item) => { return images[item.replace('./', '')] = r(item); });
   return images;
 }
 
 const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)$/));
-
-
 
 const Bookmark = ({ title, link, image }) => (
 
@@ -21,7 +19,7 @@ const Bookmark = ({ title, link, image }) => (
 
   <div class={`bookmark`}>
     
-    <img src={images[image]}></img>
+    <img src={images[image]} alt={""}></img>
     <a href={link}>{title}</a>
   </div>
 
