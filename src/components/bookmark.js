@@ -29,7 +29,7 @@ Bookmark.propTypes = {
 Bookmark.defaultProps = {
   title: `No Title`,
   link: `/`,
-  image: `github.png`
+  image: `vic.png`
 }
 
 export default Bookmark
