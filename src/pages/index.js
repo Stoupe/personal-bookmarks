@@ -15,8 +15,8 @@ const IndexPage = () => (
 
     <div class={`container`}>
       <section>
-      <Bookmark title="Calendar" link="https://calendar.google.com/calendar/r"/>
-      <Bookmark title="GitHub" link="https://github.com/Stoupe?tab=repositories"/>
+      <Bookmark title="Calendar" image="google_calendar.png" link="https://calendar.google.com/calendar/r"/>
+      <Bookmark title="GitHub" image="github.png" link="https://github.com/Stoupe?tab=repositories"/>
       </section>
 
       <h3>ENGR 301</h3>

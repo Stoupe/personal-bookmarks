@@ -1,11 +1,27 @@
 import PropTypes from "prop-types"
 import React from "react"
+// import logo from "../images/"
+
+
+
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+
+const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)$/));
+
+
 
 const Bookmark = ({ title, link, image }) => (
 
+  
+
 
   <div class={`bookmark`}>
-    <img src={image}></img>
+    
+    <img src={images[image]}></img>
     <a href={link}>{title}</a>
   </div>
 
@@ -18,7 +34,7 @@ Bookmark.propTypes = {
 Bookmark.defaultProps = {
   title: `No Title`,
   link: `/`,
-  image: `https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png`
+  image: `vic_logo.png`
 }
 
 export default Bookmark
