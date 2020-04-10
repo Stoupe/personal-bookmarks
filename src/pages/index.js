@@ -13,6 +13,8 @@ const IndexPage = () => (
 
     <div class={`container`}>
       <section>
+        http://ec2-3-106-115-240.ap-southeast-2.compute.amazonaws.com/stream
+      <Bookmark title="Rabbit Lounge" link="http://ec2-3-106-115-240.ap-southeast-2.compute.amazonaws.com"/>
       <Bookmark title="Calendar" image="google_calendar.png" link="https://calendar.google.com/calendar/r"/>
       <Bookmark title="Gmail" image="gmail.png" link="https://mail.google.com/mail/u/0/#inbox"/>
       <Bookmark title="MyTools" link="https://www.wgtn.ac.nz/students/tools"/>
