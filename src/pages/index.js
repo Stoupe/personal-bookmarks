@@ -42,6 +42,7 @@ const IndexPage = () => (
         <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/SWEN301_2020T1/Assignments"/>
         <Bookmark title="Forum" link="https://ecs.wgtn.ac.nz/cgi-bin/yabb/YaBB.pl?board=SWEN301_2020T1"/>
         <Bookmark title="Submission" link="https://apps.ecs.vuw.ac.nz/submit/SWEN301"/>
+        <Bookmark title="Zoom" image="zoom.png" link="https://vuw.zoom.us/my/swen301"/>
       </section>
       
       <h3>SWEN 304</h3>
