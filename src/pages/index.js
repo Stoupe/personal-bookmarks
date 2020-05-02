@@ -20,6 +20,7 @@ const IndexPage = () => (
       <Bookmark title="Work Experience" link="https://ecs.wgtn.ac.nz/Main/WorkExperience/WebHome"/>
       <Bookmark title="Assessment Marks" link="https://apps.ecs.vuw.ac.nz/cgi-bin/studentmarks"/>
       <Bookmark title="Panopto" link="https://vstream.hosted.panopto.com/Panopto/Pages/Home.aspx"/>
+      <Bookmark title="Blackboard" link="https://blackboard.vuw.ac.nz/"/>
       <Bookmark title="GitHub" image="github.png" link="https://github.com/Stoupe?tab=repositories"/>
       <Bookmark title="GitLab" image="gitlab.png" link="https://gitlab.ecs.vuw.ac.nz/"/>
       </section>
@@ -28,7 +29,7 @@ const IndexPage = () => (
       <section>
         <Bookmark title="Wiki" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/"/>
         <Bookmark title="Lecture Schedule" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/LectureSchedule"/>
-        <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/Assignments"/>
+        <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/Assessments"/>
         <Bookmark title="Forum" link="https://ecs.wgtn.ac.nz/cgi-bin/yabb/YaBB.pl?board=ENGR301_2020T1"/>
         <Bookmark title="Submission" link="https://apps.ecs.vuw.ac.nz/submit/ENGR301"/>
         <Bookmark title="GitLab Repo" image="gitlab.png" link="https://gitlab.ecs.vuw.ac.nz/course-work/engr300/2020/group4/group-4"/>
