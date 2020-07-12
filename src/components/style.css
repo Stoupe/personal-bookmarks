@@ -60,7 +60,7 @@ h3 {
           justify-content: center;
   background: #343434;
   border-radius: 25px;
-  padding: 10px 20px 40px 20px;
+  padding: 10px 20px;
 }
 
 .container section .bookmark {
@@ -70,7 +70,7 @@ h3 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 25px;
-  padding: 6px;
+  padding: 6px 6px 30px 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
