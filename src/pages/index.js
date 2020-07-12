@@ -25,9 +25,9 @@ const IndexPage = () => (
       <Bookmark title="GitLab" image="gitlab.png" link="https://gitlab.ecs.vuw.ac.nz/"/>
       </section>
 
-      <h3>ENGR 301</h3>
+      <h3>ENGR 302</h3>
       <section>
-        <Bookmark title="Wiki" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/"/>
+        <Bookmark title="Wiki" link="https://ecs.wgtn.ac.nz/Courses/ENGR302_2020T2/"/>
         <Bookmark title="Lecture Schedule" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/LectureSchedule"/>
         <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/ENGR301_2020T1/Assessments"/>
         <Bookmark title="Forum" link="https://ecs.wgtn.ac.nz/cgi-bin/yabb/YaBB.pl?board=ENGR301_2020T1"/>
@@ -36,14 +36,14 @@ const IndexPage = () => (
         <Bookmark title="Zoom" image="zoom.png" link="https://vuw.zoom.us/my/engr301"/>
       </section>
 
-      <h3>SWEN 301</h3>
+      <h3>SWEN 302</h3>
       <section>
         <Bookmark title="Wiki" link="https://ecs.wgtn.ac.nz/Courses/SWEN301_2020T1/"/>
-        <Bookmark title="Lecture Schedule" link="https://ecs.wgtn.ac.nz/Courses/SWEN301_2020T1/LectureSchedule"/>
-        <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/SWEN301_2020T1/Assignments"/>
-        <Bookmark title="Forum" link="https://ecs.wgtn.ac.nz/cgi-bin/yabb/YaBB.pl?board=SWEN301_2020T1"/>
-        <Bookmark title="Submission" link="https://apps.ecs.vuw.ac.nz/submit/SWEN301"/>
-        <Bookmark title="Zoom" image="zoom.png" link="https://vuw.zoom.us/my/swen301"/>
+        <Bookmark title="Lecture Schedule" link="https://ecs.wgtn.ac.nz/Courses/ENGR302_2020T2/LectureSchedule"/>
+        <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/ENGR302_2020T2/Assessments"/>
+        <Bookmark title="Forum" link="https://ecs.wgtn.ac.nz/cgi-bin/yabb/YaBB.pl?board=SWEN302_2020T2"/>
+        <Bookmark title="Submission" link="https://apps.ecs.vuw.ac.nz/submit/SWEN302"/>
+        <Bookmark title="Zoom" image="zoom.png" link="https://vuw.zoom.us/my/swen302"/>
       </section>
       
       <h3>SWEN 304</h3>
