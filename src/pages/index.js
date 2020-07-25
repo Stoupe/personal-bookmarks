@@ -41,6 +41,7 @@ const IndexPage = () => (
         <Bookmark title="Wiki" link="https://ecs.wgtn.ac.nz/Courses/SWEN304_2020T2/"/>
         <Bookmark title="Lecture Schedule" link="https://ecs.wgtn.ac.nz/Courses/SWEN324_2020T2/LectureSchedule"/>
         <Bookmark title="Assignments" link="https://ecs.wgtn.ac.nz/Courses/SWEN324_2020T2/Assignments"/>
+        <Bookmark title="Weekly Questions" link="https://ecs.wgtn.ac.nz/cgi-bin/swen324-questions"/>
         <Bookmark title="Forum" link="https://ecs.wgtn.ac.nz/cgi-bin/yabb/YaBB.pl?board=SWEN324_2020T2"/>
         <Bookmark title="Submission" link="https://apps.ecs.vuw.ac.nz/submit/SWEN324"/>
         <Bookmark title="GitLab" image="gitlab.png" link="https://gitlab.ecs.vuw.ac.nz/groups/trimester-2-2020/swen-324/"/>
