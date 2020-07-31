@@ -1,0 +1,54 @@
+{
+  "sections": [
+    {
+      "title": "SWEN 301",
+      "bookmarks": [
+        {
+          "title": "Lecture Schedule",
+          "image": "../image.png",
+          "link": "https://www.google.com"
+        },
+        {
+          "title": "Lecture Schedule",
+          "image": "../image.png",
+          "link": "https://www.google.com"
+        },
+        {
+          "title": "Lecture Schedule",
+          "image": "../image.png",
+          "link": "https://www.google.com"
+        },
+        {
+          "title": "Lecture Schedule",
+          "image": "../image.png",
+          "link": "https://www.google.com"
+        }
+      ]
+    },
+    {
+        "title": "ENGR 301",
+        "bookmarks": [
+          {
+            "title": "Lecture Schedule",
+            "image": "../image.png",
+            "link": "https://www.google.com"
+          },
+          {
+            "title": "Lecture Schedule",
+            "image": "../image.png",
+            "link": "https://www.google.com"
+          },
+          {
+            "title": "Lecture Schedule",
+            "image": "../image.png",
+            "link": "https://www.google.com"
+          },
+          {
+            "title": "Lecture Schedule",
+            "image": "../image.png",
+            "link": "https://www.google.com"
+          }
+        ]
+      }
+  ]
+}
